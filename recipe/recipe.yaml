@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.8.5"
+  version: "1.9.0"
 
 package:
   name: domonic
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/domonic/domonic-${{ version }}.tar.gz
-  sha256: d21a895e94ca21c2e7139a62ae335d709894a289aa2c6ef89768827e32c3635d
+  sha256: 34285bd05c7f2d3beea52ffa5953cbee289ff3936cfa3331dd6e828a953ebb13
 
 build:
   noarch: python
